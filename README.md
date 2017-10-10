@@ -1,7 +1,4 @@
-## aframe-&lt;a-entity shape=&quot;&quot;&gt;-component
-
-[![Version](http://img.shields.io/npm/v/aframe-&lt;a-entity shape=&quot;&quot;&gt;-component.svg?style=flat-square)](https://npmjs.org/package/aframe-&lt;a-entity shape=&quot;&quot;&gt;-component)
-[![License](http://img.shields.io/npm/l/aframe-&lt;a-entity shape=&quot;&quot;&gt;-component.svg?style=flat-square)](https://npmjs.org/package/aframe-&lt;a-entity shape=&quot;&quot;&gt;-component)
+## aframe-a-entity shape=&gt;-component
 
 extrudes shapes from svg paths
 
@@ -23,12 +20,12 @@ Install and use by directly including the [browser files](dist):
 <head>
   <title>My A-Frame Scene</title>
   <script src="https://aframe.io/releases/0.4.0/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-&lt;a-entity shape=&quot;&quot;&gt;-component/dist/aframe-&lt;a-entity shape=&quot;&quot;&gt;-component.min.js"></script>
+  <script src="https://unpkg.com/aframe-a-entity shape=&gt;-component/dist/aframe-a-entity shape=&gt;-component.min.js"></script>
 </head>
 
 <body>
   <a-scene>
-    <a-entity &lt;a-entity shape=&quot;&quot;&gt;="foo: bar"></a-entity>
+    <a-entity a-entity shape=&gt;="foo: bar"></a-entity>
   </a-scene>
 </body>
 ```
@@ -40,7 +37,7 @@ version of the component straight into your HTML file, respective to your
 version of A-Frame:
 
 ```sh
-angle install aframe-&lt;a-entity shape=&quot;&quot;&gt;-component
+angle install aframe-a-entity shape=&gt;-component
 ```
 -->
 
@@ -49,12 +46,12 @@ angle install aframe-&lt;a-entity shape=&quot;&quot;&gt;-component
 Install via npm:
 
 ```bash
-npm install aframe-&lt;a-entity shape=&quot;&quot;&gt;-component
+npm install aframe-a-entity shape=&gt;-component
 ```
 
 Then require and use.
 
 ```js
 require('aframe');
-require('aframe-&lt;a-entity shape=&quot;&quot;&gt;-component');
+require('aframe-a-entity shape=&gt;-component');
 ```
